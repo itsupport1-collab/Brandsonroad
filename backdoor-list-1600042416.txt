@@ -1,0 +1,7 @@
+/home/brandsonroad/brandsonroad.com/wp-includes/rest-api/fields/hyxlndpk.php
+/home/brandsonroad/brandsonroad.com/wp-content/plugins/wordfence/lib/menu_firewall_blocking_options.php
+/home/brandsonroad/brandsonroad.com/thai/wp-content/plugins/hello-dolly/hello.php
+/home/brandsonroad/brandsonroad.com/thai/wp-content/plugins/jetpack/sal/class.json-api-post-jetpack.php
+/home/brandsonroad/brandsonroad.com/thai/wp-includes/SimplePie/gzdecode.php
+/home/brandsonroad/brandsonroad.com/thai/wp-config-sample.php
+/home/brandsonroad/brandsonroad.com/thai/wp-includes/images/.9f471605.ico

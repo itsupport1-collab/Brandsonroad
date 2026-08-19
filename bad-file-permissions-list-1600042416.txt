@@ -1,0 +1,5 @@
+/home/brandsonroad/brandsonroad.com/thai/wp-content/themes/brandsonroad/images/2.jpg
+/home/brandsonroad/brandsonroad.com/thai/wp-content/themes/brandsonroad/images/logo.png
+/home/brandsonroad/brandsonroad.com/thai/wp-content/themes/brandsonroad/index.php
+/home/brandsonroad/brandsonroad.com/thai/wp-content/themes/brandsonroad/style.css
+/home/brandsonroad/brandsonroad.com/thai/.htaccess
