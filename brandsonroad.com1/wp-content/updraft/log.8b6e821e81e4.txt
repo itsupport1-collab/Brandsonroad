@@ -1,0 +1,266 @@
+0000.001 (0) Opened log file at time: Wed, 17 Jun 2026 21:51:18 +0000 on https://brandsonroad.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.5 WP: 7.0 PHP: 8.3.30 (cgi-fcgi, Linux pdx1-shared-a1-03 6.6.49-grsec-jammy+ #10 SMP Thu Sep 12 23:23:08 UTC 2024 x86_64) MySQL: 8.0.41-0ubuntu0.24.04.1 (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 26.4M | 28M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 894356.2 MB
+0000.017 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.018 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.021 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1781647847, seconds_ago=85231)
+0000.025 (0) Set semaphore last lock (fd) time to 2026-06-17 21:51:18
+0000.027 (0) Semaphore lock (fd) complete
+0000.031 (0) Backup run: resumption=0, nonce=8b6e821e81e4, file_nonce=8b6e821e81e4 begun at=1781733078 (0s ago), job type=backup
+0000.035 (0) Scheduling a resumption (1) after 300 seconds (1781733378) in case this run gets aborted
+0000.045 (0) Checking if we have a zip executable available
+0000.048 (0) Testing: /usr/bin/zip
+0000.057 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.060 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.064 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.067 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.070 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.079 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.086 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.093 (0) Working binary zip found: /usr/bin/zip
+0000.098 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.102 (0) Creation of backups of directories: beginning
+0000.110 (0) No backup of plugins: excluded by user's options
+0000.113 (0) No backup of themes: excluded by user's options
+0000.116 (0) No backup of uploads: excluded by user's options
+0000.119 (0) No backup of mu-plugins: excluded by user's options
+0000.123 (0) No backup of others: excluded by user's options
+0000.137 (0) Saving backup status to database (elements: 0)
+0000.203 (0) Beginning creation of database dump (WordPress DB)
+0000.207 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0000.213 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.318 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_cihjwj_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8m (truncated - 1650 bytes total)
+0000.323 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.380 (0) Table wp_cihjwj_options: Total expected rows (via COUNT): 383
+0000.387 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.435 (0) Table wp_cihjwj_options: Rows added in this batch (next record: 323952): 379 (uncompressed bytes in this segment=1797841) in 0.07 seconds
+0000.477 (0) Table wp_cihjwj_options: finishing file(s) (2, 254.1 KB)
+0000.497 (0) Table wp_cihjwj_users: Total expected rows (via COUNT): 2
+0000.501 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.511 (0) Table wp_cihjwj_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1870) in 0.02 seconds
+0000.528 (0) Table wp_cihjwj_users: finishing file(s) (2, 0.8 KB)
+0000.553 (0) Table wp_cihjwj_usermeta: Total expected rows (via COUNT): 55
+0000.554 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.558 (0) Table wp_cihjwj_usermeta: Rows added in this batch (next record: 80): 55 (uncompressed bytes in this segment=5917) in 0.01 seconds
+0000.569 (0) Table wp_cihjwj_usermeta: finishing file(s) (2, 2.6 KB)
+0000.593 (0) Table wp_cihjwj_commentmeta: Total expected rows (via COUNT): 0
+0000.599 (0) Table wp_cihjwj_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=763) in 0.02 seconds
+0000.607 (0) Table wp_cihjwj_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.621 (0) Table wp_cihjwj_comments: Total expected rows (approximate): 2421
+0000.770 (0) Table wp_cihjwj_comments: Rows added in this batch (next record: 5494): 5493 (uncompressed bytes in this segment=2316241) in 0.16 seconds
+0000.781 (0) Table wp_cihjwj_comments: finishing file(s) (2, 474.9 KB)
+0000.795 (0) Table wp_cihjwj_links: Total expected rows (via COUNT): 0
+0000.798 (0) Table wp_cihjwj_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1538) in 0.01 seconds
+0000.808 (0) Table wp_cihjwj_links: finishing file(s) (2, 0.5 KB)
+0000.843 (0) Table wp_cihjwj_postmeta: Total expected rows (approximate): 1909
+0000.883 (0) Table wp_cihjwj_postmeta: Rows added in this batch (next record: 9284): 2249 (uncompressed bytes in this segment=1668314) in 0.07 seconds
+0000.890 (0) Table wp_cihjwj_postmeta: finishing file(s) (2, 168.1 KB)
+0000.912 (0) Table wp_cihjwj_posts: Total expected rows (via COUNT): 425
+0000.913 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.942 (0) Table wp_cihjwj_posts: Rows added in this batch (next record: 1210): 425 (uncompressed bytes in this segment=1013960) in 0.04 seconds
+0000.951 (0) Table wp_cihjwj_posts: finishing file(s) (2, 92.8 KB)
+0000.962 (0) Table wp_cihjwj_term_relationships: Total expected rows (approximate): 76
+0000.966 (0) Table wp_cihjwj_term_relationships: Rows added in this batch (next record: 100000): 77 (uncompressed bytes in this segment=1849) in 0.01 seconds
+0000.971 (0) Table wp_cihjwj_term_relationships: finishing file(s) (2, 0.6 KB)
+0000.984 (0) Table wp_cihjwj_term_taxonomy: Total expected rows (via COUNT): 36
+0000.985 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.989 (0) Table wp_cihjwj_term_taxonomy: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=2186) in 0.01 seconds
+0000.995 (0) Table wp_cihjwj_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0001.009 (0) Table wp_cihjwj_termmeta: Total expected rows (via COUNT): 0
+0001.014 (0) Table wp_cihjwj_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=736) in 0.01 seconds
+0001.021 (0) Table wp_cihjwj_termmeta: finishing file(s) (2, 0.4 KB)
+0001.031 (0) Table wp_cihjwj_terms: Total expected rows (via COUNT): 36
+0001.033 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.036 (0) Table wp_cihjwj_terms: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=2520) in 0.01 seconds
+0001.040 (0) Table wp_cihjwj_terms: finishing file(s) (2, 0.9 KB)
+0001.057 (0) Table wp_cihjwj_e_events: Total expected rows (via COUNT): 0
+0001.062 (0) Table wp_cihjwj_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=567) in 0.01 seconds
+0001.070 (0) Table wp_cihjwj_e_events: finishing file(s) (2, 0.4 KB)
+0001.095 (0) Table wp_cihjwj_e_submissions: Total expected rows (via COUNT): 0
+0001.099 (0) Table wp_cihjwj_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2516) in 0.01 seconds
+0001.118 (0) Table wp_cihjwj_e_submissions: finishing file(s) (2, 0.7 KB)
+0001.140 (0) Table wp_cihjwj_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0001.143 (0) Table wp_cihjwj_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1373) in 0.01 seconds
+0001.151 (0) Table wp_cihjwj_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0001.171 (0) Table wp_cihjwj_e_submissions_values: Total expected rows (via COUNT): 0
+0001.175 (0) Table wp_cihjwj_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=802) in 0.01 seconds
+0001.186 (0) Table wp_cihjwj_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0001.203 (0) Table wp_cihjwj_nextend2_image_storage: Total expected rows (via COUNT): 0
+0001.205 (0) Table wp_cihjwj_nextend2_image_storage: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.01 seconds
+0001.210 (0) Table wp_cihjwj_nextend2_image_storage: finishing file(s) (2, 0.4 KB)
+0001.224 (0) Table wp_cihjwj_nextend2_section_storage: Total expected rows (via COUNT): 1
+0001.226 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.229 (0) Table wp_cihjwj_nextend2_section_storage: Rows added in this batch (next record: 10000): 1 (uncompressed bytes in this segment=1272) in 0.01 seconds
+0001.237 (0) Table wp_cihjwj_nextend2_section_storage: finishing file(s) (2, 0.6 KB)
+0001.253 (0) Table wp_cihjwj_nextend2_smartslider3_generators: Total expected rows (via COUNT): 0
+0001.257 (0) Table wp_cihjwj_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=756) in 0.01 seconds
+0001.286 (0) Table wp_cihjwj_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0001.314 (0) Table wp_cihjwj_nextend2_smartslider3_sliders: Total expected rows (via COUNT): 2
+0001.316 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.331 (0) Table wp_cihjwj_nextend2_smartslider3_sliders: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=29595) in 0.03 seconds
+0001.344 (0) Table wp_cihjwj_nextend2_smartslider3_sliders: finishing file(s) (2, 4.3 KB)
+0001.361 (0) Table wp_cihjwj_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 0
+0001.367 (0) Table wp_cihjwj_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=769) in 0.01 seconds
+0001.380 (0) Table wp_cihjwj_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+0001.398 (0) Table wp_cihjwj_nextend2_smartslider3_slides: Total expected rows (via COUNT): 4
+0001.400 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.404 (0) Table wp_cihjwj_nextend2_smartslider3_slides: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=31536) in 0.02 seconds
+0001.412 (0) Table wp_cihjwj_nextend2_smartslider3_slides: finishing file(s) (2, 2.9 KB)
+0001.432 (0) Table wp_cihjwj_nf3_action_meta: Total expected rows (via COUNT): 102
+0001.433 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.436 (0) Table wp_cihjwj_nf3_action_meta: Rows added in this batch (next record: 102): 102 (uncompressed bytes in this segment=10085) in 0.01 seconds
+0001.443 (0) Table wp_cihjwj_nf3_action_meta: finishing file(s) (2, 1.8 KB)
+0001.463 (0) Table wp_cihjwj_nf3_actions: Total expected rows (via COUNT): 5
+0001.466 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.469 (0) Table wp_cihjwj_nf3_actions: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1410) in 0.02 seconds
+0001.475 (0) Table wp_cihjwj_nf3_actions: finishing file(s) (2, 0.6 KB)
+0001.490 (0) Table wp_cihjwj_nf3_chunks: Total expected rows (via COUNT): 0
+0001.494 (0) Table wp_cihjwj_nf3_chunks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=594) in 0.01 seconds
+0001.503 (0) Table wp_cihjwj_nf3_chunks: finishing file(s) (2, 0.3 KB)
+0001.520 (0) Table wp_cihjwj_nf3_field_meta: Total expected rows (via COUNT): 256
+0001.522 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.532 (0) Table wp_cihjwj_nf3_field_meta: Rows added in this batch (next record: 330): 256 (uncompressed bytes in this segment=17362) in 0.02 seconds
+0001.542 (0) Table wp_cihjwj_nf3_field_meta: finishing file(s) (2, 2.7 KB)
+0001.561 (0) Table wp_cihjwj_nf3_fields: Total expected rows (via COUNT): 5
+0001.562 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.565 (0) Table wp_cihjwj_nf3_fields: Rows added in this batch (next record: 6): 5 (uncompressed bytes in this segment=1922) in 0.02 seconds
+0001.571 (0) Table wp_cihjwj_nf3_fields: finishing file(s) (2, 0.7 KB)
+0001.590 (0) Table wp_cihjwj_nf3_form_meta: Total expected rows (via COUNT): 117
+0001.591 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.596 (0) Table wp_cihjwj_nf3_form_meta: Rows added in this batch (next record: 117): 117 (uncompressed bytes in this segment=9438) in 0.02 seconds
+0001.601 (0) Table wp_cihjwj_nf3_form_meta: finishing file(s) (2, 1.9 KB)
+0001.624 (0) Table wp_cihjwj_nf3_forms: Total expected rows (via COUNT): 1
+0001.626 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.629 (0) Table wp_cihjwj_nf3_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1279) in 0.02 seconds
+0001.636 (0) Table wp_cihjwj_nf3_forms: finishing file(s) (2, 0.5 KB)
+0001.656 (0) Table wp_cihjwj_nf3_object_meta: Total expected rows (via COUNT): 0
+0001.661 (0) Table wp_cihjwj_nf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=789) in 0.01 seconds
+0001.668 (0) Table wp_cihjwj_nf3_object_meta: finishing file(s) (2, 0.4 KB)
+0001.684 (0) Table wp_cihjwj_nf3_objects: Total expected rows (via COUNT): 0
+0001.692 (0) Table wp_cihjwj_nf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=741) in 0.02 seconds
+0001.700 (0) Table wp_cihjwj_nf3_objects: finishing file(s) (2, 0.4 KB)
+0001.717 (0) Table wp_cihjwj_nf3_relationships: Total expected rows (via COUNT): 0
+0001.721 (0) Table wp_cihjwj_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=786) in 0.01 seconds
+0001.733 (0) Table wp_cihjwj_nf3_relationships: finishing file(s) (2, 0.4 KB)
+0001.748 (0) Table wp_cihjwj_nf3_upgrades: Total expected rows (via COUNT): 1
+0001.750 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.754 (0) Table wp_cihjwj_nf3_upgrades: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=19768) in 0.01 seconds
+0001.768 (0) Table wp_cihjwj_nf3_upgrades: finishing file(s) (2, 3.2 KB)
+0001.790 (0) Table wp_cihjwj_trp_dictionary_en_us_th: Total expected rows (via COUNT): 1130
+0001.814 (0) Table wp_cihjwj_trp_dictionary_en_us_th: Rows added in this batch (next record: 1130): 1130 (uncompressed bytes in this segment=262251) in 0.04 seconds
+0001.828 (0) Table wp_cihjwj_trp_dictionary_en_us_th: finishing file(s) (2, 97 KB)
+0001.849 (0) Table wp_cihjwj_trp_gettext_en_us: Total expected rows (via COUNT): 1179
+0001.862 (0) Table wp_cihjwj_trp_gettext_en_us: Rows added in this batch (next record: 1179): 1179 (uncompressed bytes in this segment=75843) in 0.02 seconds
+0001.873 (0) Table wp_cihjwj_trp_gettext_en_us: finishing file(s) (2, 15.5 KB)
+0001.889 (0) Table wp_cihjwj_trp_gettext_original_meta: Total expected rows (via COUNT): 0
+0001.894 (0) Table wp_cihjwj_trp_gettext_original_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=829) in 0.01 seconds
+0001.910 (0) Table wp_cihjwj_trp_gettext_original_meta: finishing file(s) (2, 0.4 KB)
+0001.922 (0) Table wp_cihjwj_trp_gettext_original_strings: Total expected rows (via COUNT): 196
+0001.925 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.931 (0) Table wp_cihjwj_trp_gettext_original_strings: Rows added in this batch (next record: 196): 196 (uncompressed bytes in this segment=13392) in 0.01 seconds
+0001.937 (0) Table wp_cihjwj_trp_gettext_original_strings: finishing file(s) (2, 3.3 KB)
+0001.956 (0) Table wp_cihjwj_trp_gettext_th: Total expected rows (via COUNT): 1138
+0001.968 (0) Table wp_cihjwj_trp_gettext_th: Rows added in this batch (next record: 1138): 1138 (uncompressed bytes in this segment=80907) in 0.02 seconds
+0001.977 (0) Table wp_cihjwj_trp_gettext_th: finishing file(s) (2, 17.4 KB)
+0002.001 (0) Table wp_cihjwj_trp_original_meta: Total expected rows (via COUNT): 434
+0002.006 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.014 (0) Table wp_cihjwj_trp_original_meta: Rows added in this batch (next record: 434): 434 (uncompressed bytes in this segment=16957) in 0.03 seconds
+0002.023 (0) Table wp_cihjwj_trp_original_meta: finishing file(s) (2, 2.9 KB)
+0002.047 (0) Table wp_cihjwj_trp_original_strings: Total expected rows (via COUNT): 1130
+0002.069 (0) Table wp_cihjwj_trp_original_strings: Rows added in this batch (next record: 1130): 1130 (uncompressed bytes in this segment=231961) in 0.03 seconds
+0002.080 (0) Table wp_cihjwj_trp_original_strings: finishing file(s) (2, 89.1 KB)
+0002.083 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_options.table.tmpr323953.gz (1/40/fopen): adding to final database dump
+0002.095 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_options.table.gz (2/40/fopen): adding to final database dump
+0002.097 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_users.table.tmpr3.gz (3/40/fopen): adding to final database dump
+0002.098 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_users.table.gz (4/40/fopen): adding to final database dump
+0002.100 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_usermeta.table.tmpr81.gz (5/40/fopen): adding to final database dump
+0002.101 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_usermeta.table.gz (6/40/fopen): adding to final database dump
+0002.103 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_commentmeta.table.tmpr0.gz (7/40/fopen): adding to final database dump
+0002.106 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_commentmeta.table.gz (8/40/fopen): adding to final database dump
+0002.113 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_comments.table.tmpr5495.gz (9/40/fopen): adding to final database dump
+0002.131 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_comments.table.gz (10/40/fopen): adding to final database dump
+0002.134 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_links.table.tmpr0.gz (11/40/fopen): adding to final database dump
+0002.137 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_links.table.gz (12/40/fopen): adding to final database dump
+0002.140 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_postmeta.table.tmpr9285.gz (13/40/fopen): adding to final database dump
+0002.148 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_postmeta.table.gz (14/40/fopen): adding to final database dump
+0002.150 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_posts.table.tmpr1211.gz (15/40/fopen): adding to final database dump
+0002.156 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_posts.table.gz (16/40/fopen): adding to final database dump
+0002.157 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_term_relationships.table.tmpr100001.gz (17/40/fopen): adding to final database dump
+0002.162 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_term_relationships.table.gz (18/40/fopen): adding to final database dump
+0002.163 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_term_taxonomy.table.tmpr37.gz (19/40/fopen): adding to final database dump
+0002.165 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_term_taxonomy.table.gz (20/40/fopen): adding to final database dump
+0002.169 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_termmeta.table.tmpr0.gz (21/40/fopen): adding to final database dump
+0002.170 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_termmeta.table.gz (22/40/fopen): adding to final database dump
+0002.173 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_terms.table.tmpr37.gz (23/40/fopen): adding to final database dump
+0002.175 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_terms.table.gz (24/40/fopen): adding to final database dump
+0002.178 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_e_events.table.tmpr0.gz (25/40/fopen): adding to final database dump
+0002.179 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_e_events.table.gz (26/40/fopen): adding to final database dump
+0002.180 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_e_submissions.table.tmpr0.gz (27/40/fopen): adding to final database dump
+0002.182 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_e_submissions.table.gz (28/40/fopen): adding to final database dump
+0002.183 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_e_submissions_actions_log.table.tmpr0.gz (29/40/fopen): adding to final database dump
+0002.185 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_e_submissions_actions_log.table.gz (30/40/fopen): adding to final database dump
+0002.186 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_e_submissions_values.table.tmpr0.gz (31/40/fopen): adding to final database dump
+0002.189 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_e_submissions_values.table.gz (32/40/fopen): adding to final database dump
+0002.190 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nextend2_image_storage.table.tmpr0.gz (33/40/fopen): adding to final database dump
+0002.192 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nextend2_image_storage.table.gz (34/40/fopen): adding to final database dump
+0002.194 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nextend2_section_storage.table.tmpr10001.gz (35/40/fopen): adding to final database dump
+0002.195 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nextend2_section_storage.table.gz (36/40/fopen): adding to final database dump
+0002.197 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nextend2_smartslider3_generators.table.tmpr0.gz (37/40/fopen): adding to final database dump
+0002.198 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nextend2_smartslider3_generators.table.gz (38/40/fopen): adding to final database dump
+0002.199 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nextend2_smartslider3_sliders.table.tmpr3.gz (39/40/fopen): adding to final database dump
+0002.201 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nextend2_smartslider3_sliders.table.gz (40/40/fopen): adding to final database dump
+0002.203 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (41/40/fopen): adding to final database dump
+0002.205 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nextend2_smartslider3_sliders_xref.table.gz (42/40/fopen): adding to final database dump
+0002.208 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nextend2_smartslider3_slides.table.tmpr5.gz (43/40/fopen): adding to final database dump
+0002.209 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nextend2_smartslider3_slides.table.gz (44/40/fopen): adding to final database dump
+0002.210 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_action_meta.table.tmpr103.gz (45/40/fopen): adding to final database dump
+0002.212 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_action_meta.table.gz (46/40/fopen): adding to final database dump
+0002.213 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_actions.table.tmpr6.gz (47/40/fopen): adding to final database dump
+0002.214 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_actions.table.gz (48/40/fopen): adding to final database dump
+0002.215 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_chunks.table.tmpr0.gz (49/40/fopen): adding to final database dump
+0002.217 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_chunks.table.gz (50/40/fopen): adding to final database dump
+0002.218 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_field_meta.table.tmpr331.gz (51/40/fopen): adding to final database dump
+0002.219 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_field_meta.table.gz (52/40/fopen): adding to final database dump
+0002.221 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_fields.table.tmpr7.gz (53/40/fopen): adding to final database dump
+0002.222 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_fields.table.gz (54/40/fopen): adding to final database dump
+0002.224 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_form_meta.table.tmpr118.gz (55/40/fopen): adding to final database dump
+0002.226 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_form_meta.table.gz (56/40/fopen): adding to final database dump
+0002.228 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_forms.table.tmpr2.gz (57/40/fopen): adding to final database dump
+0002.233 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_forms.table.gz (58/40/fopen): adding to final database dump
+0002.235 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_object_meta.table.tmpr0.gz (59/40/fopen): adding to final database dump
+0002.237 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_object_meta.table.gz (60/40/fopen): adding to final database dump
+0002.238 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_objects.table.tmpr0.gz (61/40/fopen): adding to final database dump
+0002.241 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_objects.table.gz (62/40/fopen): adding to final database dump
+0002.244 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_relationships.table.tmpr0.gz (63/40/fopen): adding to final database dump
+0002.248 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_relationships.table.gz (64/40/fopen): adding to final database dump
+0002.251 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_upgrades.table.tmpr2.gz (65/40/fopen): adding to final database dump
+0002.253 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_nf3_upgrades.table.gz (66/40/fopen): adding to final database dump
+0002.254 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_trp_dictionary_en_us_th.table.tmpr1131.gz (67/40/fopen): adding to final database dump
+0002.259 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_trp_dictionary_en_us_th.table.gz (68/40/fopen): adding to final database dump
+0002.263 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_trp_gettext_en_us.table.tmpr1180.gz (69/40/fopen): adding to final database dump
+0002.268 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_trp_gettext_en_us.table.gz (70/40/fopen): adding to final database dump
+0002.273 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_trp_gettext_original_meta.table.tmpr0.gz (71/40/fopen): adding to final database dump
+0002.280 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_trp_gettext_original_meta.table.gz (72/40/fopen): adding to final database dump
+0002.283 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_trp_gettext_original_strings.table.tmpr197.gz (73/40/fopen): adding to final database dump
+0002.286 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_trp_gettext_original_strings.table.gz (74/40/fopen): adding to final database dump
+0002.287 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_trp_gettext_th.table.tmpr1139.gz (75/40/fopen): adding to final database dump
+0002.290 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_trp_gettext_th.table.gz (76/40/fopen): adding to final database dump
+0002.291 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_trp_original_meta.table.tmpr435.gz (77/40/fopen): adding to final database dump
+0002.293 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_trp_original_meta.table.gz (78/40/fopen): adding to final database dump
+0002.294 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_trp_original_strings.table.tmpr1131.gz (79/40/fopen): adding to final database dump
+0002.299 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db-table-wp_cihjwj_trp_original_strings.table.gz (80/40/fopen): adding to final database dump
+0002.320 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db.gz: finished writing out complete database file (1245.8 KB)
+0002.366 (0) Total database tables backed up: 40 (backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db.gz, size: 1275804, sha1: e117f104a734869c52d61de3af7aec6aefd21e56, sha256: bcf551e696b5610cf5275b5e7cce26119642015c9bb1e48bfffbeb39707b3870)
+0002.467 (0) backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0002.469 (0) Saving backup history. Total backup size: 1.2 MB
+0002.522 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0002.527 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0002.528 (0) No remote despatch: user chose no remote backup service
+0002.529 (0) Recording as successfully uploaded: backup_2026-06-17-2151_Brands_on_Road__8b6e821e81e4-db.gz
+0002.531 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0002.532 (0) Resume backup (8b6e821e81e4, 0): finish run
+0002.537 (0) Decremented the semaphore (fd) by 1
+0002.540 (0) Semaphore (fd) unlocked
+0002.542 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0002.551 (0) No email will/can be sent - the user has not configured an email address.
+0002.552 (0) The backup succeeded and is now complete
